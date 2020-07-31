@@ -32,19 +32,28 @@ const App = () => {
         <div className="options">
           <ul>
             <li>
-              <div className="projects-li">
+              <div className="quantity">
                 <p>{publicRepos}</p>
                 <a href="/">Projetos</a>
               </div>
             </li>
             <li>
-              <a href="/courses">Cursos</a>
+              <div className="quantity">
+                <p>11</p>
+                <a href="/courses">Cursos</a>
+              </div>
             </li>
             <li>
-              <a href="/formation">Formação</a>
+              <div className="quantity">
+                <p>3</p>
+                <a href="/formation">Formações</a>
+              </div>
             </li>
             <li>
-              <a href="/experience">Experiência</a>
+              <div className="quantity">
+                <p>2</p>
+                <a href="/experience">Experiências</a>
+              </div>
             </li>
           </ul>
         </div>

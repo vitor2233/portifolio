@@ -73,10 +73,15 @@
 
 a{
     text-decoration: none;
-    color: #f1f1f1;
+    color: var(--white-color);
 }
 
-.projects-li > p {
+a:hover {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.quantity > p {
     margin-bottom: 0;
 }
 
@@ -119,4 +124,40 @@ a{
         max-width: 140px;
         max-height: 140px;
     }
+}
+
+/* Cards */
+.card-ul li{
+    list-style-type: none;
+}
+
+.card-ul {
+    margin: 20px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-ul .card-li {
+    flex: 0 1 150px;
+    margin: 5px;
+}
+
+.card-li .custom-card {
+    min-height: 420px;
+    min-width: 360px;
+}
+
+.card-body {
+    display: grid;
+    padding: 1rem 1rem 0rem 1rem;
+}
+
+.card-title {
+    color: var(--primary-color);
+}
+
+.card-text {
+    color: var(--black-color);
 }
