@@ -15,7 +15,7 @@ const Projects = () => {
       <ul className="card-ul">
         {repos.map(repo =>
           <li className="card-li" key={repo.id}>
-            <Card className="custom-card">
+            <Card data-aos="fade-up" data-aos-duration="1000" className="custom-card">
               <Card.Body>
                 <Card.Title>{repo.name}</Card.Title>
                 <Card.Text>
@@ -23,7 +23,7 @@ const Projects = () => {
                 </Card.Text>
                 <a className="github-link" href={repo.html_url} target="_blank" rel="noopener noreferrer">Ver detalhes</a>
               </Card.Body>
-        <Card.Footer className="text-muted">Linguagem: {repo.language}</Card.Footer>
+              <Card.Footer className="text-muted">Linguagem: {repo.language}</Card.Footer>
             </Card>
           </li>
         )}

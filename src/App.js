@@ -3,6 +3,10 @@ import './App.css';
 import Routes from './Routes';
 import ProfilePhoto from './assets/eu.jpg';
 
+import { FaLinkedin, FaGithubSquare } from 'react-icons/fa';
+import AOS from 'aos';
+
+AOS.init();
 
 const App = () => {
   const [publicRepos, setPublicRepos] = useState('0');
@@ -24,6 +28,10 @@ const App = () => {
             <h2 className="desc">Vítor Guilherme</h2>
             <p className="desc">Desenvolvedor</p>
           </div>
+          <div className="icons">
+              <a href="https://www.linkedin.com/in/vitor-guilherme2233/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+              <a href="https://github.com/vitor2233" target="_blank" rel="noopener noreferrer"><FaGithubSquare /></a>
+            </div>
         </div>
         <hr />
         <div className="contact">
@@ -39,7 +47,7 @@ const App = () => {
             </li>
             <li>
               <div className="quantity">
-                <p>11</p>
+                <p>9</p>
                 <a href="/courses">Cursos</a>
               </div>
             </li>

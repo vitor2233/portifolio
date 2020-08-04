@@ -8,7 +8,7 @@ function Formation() {
     <div className="formation">
       <ul className="card-ul">
         <li className="card-li">
-          <Card className="custom-card">
+          <Card data-aos="fade-up" data-aos-duration="1000" className="custom-card">
             <Card.Body>
               <Card.Title>Sistemas de informação - UNA</Card.Title>
               <Card.Text>
@@ -20,7 +20,7 @@ function Formation() {
           </Card>
         </li>
         <li className="card-li">
-          <Card className="custom-card">
+          <Card data-aos="fade-up" data-aos-duration="1000" className="custom-card">
             <Card.Body>
               <Card.Title>Técnico em TI - SENAI</Card.Title>
               <Card.Text>
@@ -33,7 +33,7 @@ function Formation() {
           </Card>
         </li>
         <li className="card-li">
-          <Card className="custom-card">
+          <Card data-aos="fade-up" data-aos-duration="1000" className="custom-card">
             <Card.Body>
               <Card.Title>High School - UPTIME</Card.Title>
               <Card.Text>

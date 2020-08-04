@@ -8,7 +8,7 @@ function Courses() {
     <div className="courses">
         <ul className="card-ul">
         <li className="card-li">
-          <Card className="custom-card">
+          <Card data-aos="fade-up" data-aos-duration="1000" className="custom-card">
             <Card.Body>
               <Card.Title>Next level week 1 - Rocketseat</Card.Title>
               <Card.Text>
@@ -20,7 +20,7 @@ function Courses() {
           </Card>
         </li>
         <li className="card-li">
-          <Card className="custom-card">
+          <Card data-aos="fade-up" data-aos-duration="1000" className="custom-card">
             <Card.Body>
               <Card.Title>Semana omnistack 9 e 10 - Rocketseat</Card.Title>
               <Card.Text>
@@ -32,7 +32,7 @@ function Courses() {
           </Card>
         </li>
         <li className="card-li">
-          <Card className="custom-card">
+          <Card data-aos="fade-up" data-aos-duration="1000" className="custom-card">
             <Card.Body>
               <Card.Title>Build an app with ASPNET Core and Angular from scratch</Card.Title>
               <Card.Text>
@@ -44,7 +44,7 @@ function Courses() {
           </Card>
         </li>
         <li className="card-li">
-          <Card className="custom-card">
+          <Card data-aos="fade-up" data-aos-duration="1000" className="custom-card">
             <Card.Body>
               <Card.Title>UX Design Rápido e Prático</Card.Title>
               <Card.Text>
@@ -56,7 +56,7 @@ function Courses() {
           </Card>
         </li>
         <li className="card-li">
-          <Card className="custom-card">
+          <Card data-aos="fade-up" data-aos-duration="1000" className="custom-card">
             <Card.Body>
               <Card.Title>UI Design: Design de Interfaces com foco em Projetos Web</Card.Title>
               <Card.Text>
@@ -68,7 +68,7 @@ function Courses() {
           </Card>
         </li>
         <li className="card-li">
-          <Card className="custom-card">
+          <Card data-aos="fade-up" data-aos-duration="1000" className="custom-card">
             <Card.Body>
               <Card.Title>JavaScript - Curso COMPLETO com 6 Projetos REAIS</Card.Title>
               <Card.Text>
@@ -80,7 +80,7 @@ function Courses() {
           </Card>
         </li>
         <li className="card-li">
-          <Card className="custom-card">
+          <Card data-aos="fade-up" data-aos-duration="1000" className="custom-card">
             <Card.Body>
               <Card.Title>Git Completo: Do Básico ao Avançado</Card.Title>
               <Card.Text>
@@ -92,7 +92,7 @@ function Courses() {
           </Card>
         </li>
         <li className="card-li">
-          <Card className="custom-card">
+          <Card data-aos="fade-up" data-aos-duration="1000" className="custom-card">
             <Card.Body>
               <Card.Title>Curso Desenvolvedor Web Completo + 10 de projetos.</Card.Title>
               <Card.Text>
@@ -104,7 +104,7 @@ function Courses() {
           </Card>
         </li>
         <li className="card-li">
-          <Card className="custom-card">
+          <Card data-aos="fade-up" data-aos-duration="1000" className="custom-card">
             <Card.Body>
               <Card.Title>Curso Completo de PHP 7</Card.Title>
               <Card.Text>

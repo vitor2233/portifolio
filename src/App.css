@@ -15,7 +15,7 @@
     font-weight: bold;
     border: 1px solid #f1f1f1;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
@@ -58,6 +58,7 @@
     margin-top: 10px;
     margin-left: 10px;
     margin-bottom: 0px;
+    text-align: -webkit-left;
 }
 
 .options {
@@ -71,9 +72,23 @@
     display: inline-block;
 }
 
+.icons {
+    position: absolute;
+    right: 2%;
+}
+
+.icons > a > svg {
+    width: 30px;
+    height: 30px;
+}
+
 a{
     text-decoration: none;
     color: var(--white-color);
+}
+
+hr {
+    border-top: 1px solid #f1f1f1;
 }
 
 a:hover {
@@ -88,7 +103,15 @@ a:hover {
 .options > ul > li:last-child {
     margin-right: 0vh;
 }
-
+@media (max-width:520px) {
+    h2.desc {
+        width: 40vw;
+        margin-left: 1px;
+    }
+    .email {
+        margin-left: -2px;
+    }
+}
 @media (max-width:767px) {
     .profile-img {
         max-width: 80px;
@@ -146,7 +169,7 @@ a:hover {
 
 .card-li .custom-card {
     min-height: 420px;
-    min-width: 360px;
+    min-width: 340px;
 }
 
 .card-body {

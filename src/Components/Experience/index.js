@@ -8,7 +8,7 @@ function Experience() {
     <div className="experience">
         <ul className="card-ul">
         <li className="card-li">
-          <Card className="custom-card">
+          <Card data-aos="fade-up" data-aos-duration="1000" className="custom-card">
             <Card.Body>
               <Card.Title>Desenvolvedor Fullstack - SporTI</Card.Title>
               <Card.Text>
@@ -20,7 +20,7 @@ function Experience() {
           </Card>
         </li>
         <li className="card-li">
-          <Card className="custom-card">
+          <Card data-aos="fade-up" data-aos-duration="1000" className="custom-card">
             <Card.Body>
               <Card.Title>Freelance - Pretonet</Card.Title>
               <Card.Text>
